@@ -142,29 +142,22 @@ header {
     margin: 0 auto;
 }
 .banner-box {
-    display: flex;
-    flex-direction: column;
     color: #FFFFFF;
     background-image: url(../images/burger.jpg);
     background-size: cover;
     background-position: center center;
-    width: 1180px;
-    height: 438px;
+    padding: 100px;
 }
 .banner-title {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
     color: #FFFFFF;
     font-size: 60px;
     font-weight: 900;
-    margin: 100px 0 0 100px;
-    padding-right: 16.4em;
-    line-height: 76px;
+    margin-top: 0;
+    margin-bottom: 12px;
 
 }
 .banner-title span {
-    padding: 5px 19.73px 5px 17.27px;
+    padding: 5px 0;
     color: #FFFFFF;
     border-radius: 14px;
     background: #F37335;
@@ -173,20 +166,22 @@ header {
     text-transform: uppercase;
     line-height: 18px;
     font-weight: 600;
+    display: block;
+    max-width: 96px;
+    text-align: center;
+    margin-bottom: 9px;
 }
 .banner-text {
     color: #faf9f9;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    max-width: 329px;
+    max-width: 353px;
     line-height: 24px;
-    margin-left: 100px;
-    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-top: 0;
 }
 .banner-link {
-    width: 170px;
-    text-align: center;
-    padding: 20px 0;
+    padding: 20px 27px;
     color: #1E2F40;
     font-size: 14px;
     border-radius: 5px;
@@ -194,5 +189,4 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 100px;
 }
