@@ -306,7 +306,7 @@ header {
 .footer-item {
     flex: 0 0 auto;
 }
-.footer-item h2 {
+.footer-title {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
@@ -321,15 +321,15 @@ header {
     font-weight: 700;
     line-height: 24px;
 }
-.footer-list a {
+.footer-link {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
 }
-.footer-list a:hover {
+.footer-link:hover {
     color: #FBB731;
 }
-.footer-item span {
+.footer-text {
     color: #DEDEDE;
     display: block;
     font-weight: 400;
@@ -341,13 +341,13 @@ header {
 .footer-list-tel li {
     margin-bottom: 12px;
 }
-.footer-list-tel a {
+.footer-list-link {
     font-size: 20px;
     font-weight: 900;
     color: #FBB731;
     margin-top: 0;
 }
-.footer-list-tel a:hover {
+.footer-list-link:hover {
     color: #DEDEDE;
 }
 .footer-list {
