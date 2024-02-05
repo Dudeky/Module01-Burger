@@ -353,6 +353,7 @@ header {
     color: #FBB731;
     margin-top: 0;
     transition: 0.2s;
+    text-decoration: none;
 }
 .footer-list-link:hover {
     color: #DEDEDE;
@@ -513,6 +514,11 @@ header {
 }
 
 /* Responsive */
+@media (max-width: 1001px) {
+    .footer-list + .footer-list-tel {
+        display: none;
+    }
+}
 
 @media (max-width: 1000px) {
     .container {
@@ -539,5 +545,29 @@ header {
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
+    }
+    .menu-two {
+        overflow: hidden;
+        height: 670px;
+    }
+    .menu-two .menu-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 15px; 
+    }
+    .menu-two .menu-grid img {
+        height: 270px;
+        padding: 0px 0px 160px;
+    }
+    .menu-two .menu-grid-cover {
+        margin-bottom: -140px;
+    }
+    .footer {
+        margin-top: -22px;
+    }
+    .footer-tel {
+        display: none;
+    }
+    .footer-list + .footer-list-tel {
+        display: block;
     }
 }
